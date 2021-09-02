@@ -4,7 +4,6 @@ pkgs.stdenv.mkDerivation {
   name = "x201tScreenRotate";
   src = ./.;
   buildInputs = [
-    pkgs.stdenv
     pkgs.libwacom
     pkgs.xf86_input_wacom
     pkgs.xorg.xrandr
